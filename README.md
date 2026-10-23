@@ -4,6 +4,8 @@
 
 **Your repo is a galaxy. You just haven't seen it yet.**
 
+[**✦ Live demo**](https://finding-haseeb.github.io/git-galaxy/)
+
 Every commit is a star. Every contributor is a color.
 The first commits are the core. Today's commit is the outer edge.
 
