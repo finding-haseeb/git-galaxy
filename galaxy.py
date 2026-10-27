@@ -206,6 +206,8 @@ function hud(n) {
 }
 
 function frame(now) {
+  // a page opened in a hidden tab can start at 0×0; wait for a real size
+  if (!W || !H) return requestAnimationFrame(frame);
   const dt = Math.min(64, now - last); last = now;
   if (spin && !drag) yaw += dt * 0.00005;
   if (playing && (shown = Math.min(N, shown + N * dt / PLAY_MS)) >= N) playing = false;

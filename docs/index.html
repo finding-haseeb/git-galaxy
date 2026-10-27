@@ -302,6 +302,8 @@ const rl = Array.from({ length: 8 }, () => { const e = document.createElement('d
 let hoverables = [], last = performance.now(), hovered = null;
 
 function frame(now) {
+  // a page opened in a hidden tab can start at 0×0; wait for a real size
+  if (!W || !H) return requestAnimationFrame(frame);
   const dt = Math.min(64, now - last); last = now;
   const T = STILL ? 40 : now / 1000;
   if (spin && !drag && !fly && !focused) cam.yaw += dt * 0.00003;
