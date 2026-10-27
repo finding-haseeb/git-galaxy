@@ -4,7 +4,7 @@
 
 **Your repo is a galaxy. You just haven't seen it yet.**
 
-[**✦ Live demo**](https://finding-haseeb.github.io/git-galaxy/)
+[**✦ Explore the git universe**](https://finding-haseeb.github.io/git-galaxy/) · [repo galaxy demo](https://finding-haseeb.github.io/git-galaxy/galaxy.html)
 
 Every commit is a star. Every contributor is a color.
 The first commits are the core. Today's commit is the outer edge.
@@ -12,6 +12,20 @@ The first commits are the core. Today's commit is the outer edge.
 ![A 5,000-commit repo rendered as a spiral galaxy](docs/hero.png)
 
 </div>
+
+## git universe: every developer is a galaxy
+
+![Twelve developers rendered as galaxies in one universe](docs/universe.png)
+
+[Open it](https://finding-haseeb.github.io/git-galaxy/) and type any GitHub username. A new galaxy forms:
+
+- **Repos are stars.** Older repos sit near the core, newer ones at the rim. Brighter means more ★, and the color is the language.
+- **Activity is comets.** Pushes (white), pull requests (pink), new branches (green) and issues (yellow) from the last 90 days fly from the core to the repo they touched.
+- **Repos they contributed to** but don't own orbit in the halo.
+- **Click a galaxy** to fly in and see the profile. Click a star to open the repo. **Tour** flies through every galaxy.
+- **Share** copies a link to your exact universe (`#u=torvalds,gaearon,you`).
+
+It runs in the browser on GitHub's public API, which allows 60 lookups an hour without a login. The default universe is a snapshot made with `tools/bake.py`, so it opens instantly.
 
 ## Run it (10 seconds, zero dependencies)
 
